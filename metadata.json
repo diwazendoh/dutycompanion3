@@ -1,0 +1,8 @@
+{
+  "name": "Duty Companion",
+  "description": "A nursing-focused smart duty companion and station directory (Kardex) that tracks room tasks, medications, clinical systems assessments, clinical tools, and shift endorsements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

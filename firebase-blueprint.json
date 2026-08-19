@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "rooms": {
+      "title": "Rooms",
+      "description": "Patient rooms and Kardex records",
+      "properties": {
+        "roomNumber": { "type": "string" },
+        "status": { "type": "string" },
+        "diagnosis": { "type": "string" },
+        "doctors": { "type": "string" },
+        "ivFluid": { "type": "string" },
+        "ivFluidOther": { "type": "string" },
+        "regulation": { "type": "string" },
+        "sideDrips": { "type": "string" },
+        "contraptions": { "type": "array", "items": { "type": "string" } },
+        "contraptionsOther": { "type": "string" },
+        "precautions": { "type": "array", "items": { "type": "string" } },
+        "otherPrecaution": { "type": "string" },
+        "monitoring": { "type": "string" },
+        "ioRequired": { "type": "boolean" },
+        "tasks": { "type": "array" },
+        "clinicalAssessment": { "type": "object" },
+        "history": { "type": "array" },
+        "lastUpdated": { "type": "string" }
+      },
+      "required": ["roomNumber", "status"]
+    }
+  }
+}
